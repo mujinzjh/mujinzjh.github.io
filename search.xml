@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>在react中使用history的问题</title>
+      <link href="/2022/03/25/%E5%9C%A8react%E4%B8%AD%E4%BD%BF%E7%94%A8history%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/03/25/%E5%9C%A8react%E4%B8%AD%E4%BD%BF%E7%94%A8history%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h4 id="React中history问题记录"><a href="#React中history问题记录" class="headerlink" title="React中history问题记录"></a>React中history问题记录</h4><h5 id="一、背景"><a href="#一、背景" class="headerlink" title="一、背景"></a>一、背景</h5><p>在学习react的时候，创建了一个react+ts的项目框架。遇到一个问题，使用history无法进行页面跳转，即使跳转也无法渲染页面。</p><h5 id="二、创建项目"><a href="#二、创建项目" class="headerlink" title="二、创建项目"></a>二、创建项目</h5><p>使用以下语法创建了一个简单的项目框架</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create-react-app xxx --scripts-version=react-scripts-ts</span><br></pre></td></tr></table></figure><h4 id="三、history的用法"><a href="#三、history的用法" class="headerlink" title="三、history的用法"></a>三、history的用法</h4><ul><li>在react-router很大的程度上依赖history的功能。</li><li>history分为两类：BrowserHistory和HashHistory。分别对应的react-router-dom中的BrowserRouter和HashRouter 两个路由器。</li><li>在react-router很大的程度上依赖history的功能。</li><li>history分为两类：BrowserHistory和HashHistory。分别对应的react-router-dom中的BrowserRouter和HashRouter 两个路由器。</li></ul><h4 id="四、现象"><a href="#四、现象" class="headerlink" title="四、现象"></a>四、现象</h4><p>使用了Router这个路由器，传入history属性，但是在使用createHashHistory 和 createBrowserHistory创建的history时，出现了问题：</p><p><mark>路由发生了改变，页面并没有渲染。</mark></p><h4 id="五、原因"><a href="#五、原因" class="headerlink" title="五、原因"></a>五、原因</h4><p>react-router-dom是基于react-router进行开发的。在网上资料中找到：</p><p>   <img src="https://img2020.cnblogs.com/blog/1506521/202009/1506521-20200911163244585-439786497.png"></p><h4 id="六、解决方法"><a href="#六、解决方法" class="headerlink" title="六、解决方法"></a>六、解决方法</h4><p>降低history版本，就可以解决无法渲染问题。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install history@4.1.0 -D</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> React - React问题总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> React </tag>
+            
+            <tag> history </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/03/24/hello-world/"/>
       <url>/2022/03/24/hello-world/</url>

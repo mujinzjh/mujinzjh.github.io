@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>微信小程序的使用（一）</title>
+      <link href="/2022/03/30/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+      <url>/2022/03/30/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><div class="note modern"><p>记录小程序的学习</p></div><h1 id="安装与使用"><a href="#安装与使用" class="headerlink" title="安装与使用"></a>安装与使用</h1><h2 id="安装开发者工具"><a href="#安装开发者工具" class="headerlink" title="安装开发者工具"></a>安装开发者工具</h2><p>1.工欲善其事，必先利其器。首先安装工具，到微信小程序开放文档中<br><a href="https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html">https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html</a><br>下载对应的版本的工具软件。<br>2.注册微信公众平台的账号<br>3.根据下面指示找到开发者的AppId</p><img src="/2022/03/30/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/%E6%B3%A8%E5%86%8C.jpg" class><img src="/2022/03/30/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/appid.jpg" class><p>4.打开微信开发者工具，新建项目，填写对应的Appid或者密钥</p><img src="/2022/03/30/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8.jpg" class>]]></content>
+      
+      
+      <categories>
+          
+          <category> 微信小程序 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 微信小程序 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在mac下安装Nginx出现的问题</title>
       <link href="/2022/03/25/%E5%9C%A8mac%E4%B8%8B%E5%AE%89%E8%A3%85Nginx%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/"/>
       <url>/2022/03/25/%E5%9C%A8mac%E4%B8%8B%E5%AE%89%E8%A3%85Nginx%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>

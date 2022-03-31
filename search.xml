@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Mac下Home目录的问题</title>
+      <link href="/2022/03/31/Mac%E4%B8%8BHome%E7%9B%AE%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/03/31/Mac%E4%B8%8BHome%E7%9B%AE%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><blockquote><p>在使用Mac的时候，想用Mac来做本地服务器。想把文件放到Home下，但是一旦重新启动电脑。Home下新建的目录没有了。</p></blockquote><h1 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h1><p>在mac10.15及以上，默认开启了SIP系统保护，开发中的普通用户是无法创建文件。</p><h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><h2 id="方案一"><a href="#方案一" class="headerlink" title="方案一"></a>方案一</h2><ol><li>打开终端</li><li>输入以下命令</li></ol>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/auto_master</span><br></pre></td></tr></table></figure><ol start="3"><li>去掉根目录下的 #，保存文件退出；</li><li>回到根目录</li></ol>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /</span><br></pre></td></tr></table></figure><ol start="5"><li>执行下面的命令</li></ol>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo automount</span><br></pre></td></tr></table></figure><p>Tips：注意这种方法，一旦电脑重启了，home目录下的文件就没有了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Mac </category>
+          
+          <category> Mac的使用技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>微信小程序的使用（一）</title>
       <link href="/2022/03/30/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/"/>
       <url>/2022/03/30/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/</url>

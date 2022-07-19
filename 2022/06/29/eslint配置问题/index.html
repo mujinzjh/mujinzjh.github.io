@@ -155,7 +155,7 @@
 </li>
 </ol>
 <p>问题原因：（node版本为10.6.0）<br>eslint版本与node版本冲突，eslint不再支持 Node.js v8<br>解决方法：<br>所以对node版本升级或者对eslint版本降级就可以了</p>
-<p>2.我为了保持自身环境的node版本不变时，只能选择将eslint版本降级。<br>npm install <a href="mailto:&#101;&#115;&#x6c;&#x69;&#110;&#x74;&#64;&#54;&#46;&#56;&#x2e;&#x30;">&#101;&#115;&#x6c;&#x69;&#110;&#x74;&#64;&#54;&#46;&#56;&#x2e;&#x30;</a> -D</p>
+<p>2.我为了保持自身环境的node版本不变时，只能选择将eslint版本降级。<br>npm install <a href="mailto:&#x65;&#115;&#108;&#x69;&#110;&#116;&#64;&#54;&#x2e;&#x38;&#46;&#x30;">&#x65;&#115;&#108;&#x69;&#110;&#116;&#64;&#54;&#x2e;&#x38;&#46;&#x30;</a> -D</p>
 <p>将eslint降级发现出现这样的错误：<br>Parsing error: Unexpected token</p>
 <p>出现原因：<br>因为开发环境与eslint当前的解析功能呢不兼容。<br>解决方法：<br>使用babel-eslint解析<br>npm install babel-eslint</p>
 <p>在.eslintrc.js中配置<br>“parse”: “babel-eslint”</p>
